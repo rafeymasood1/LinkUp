@@ -1,0 +1,4 @@
+FROM node:20-alpine
+RUN apk add --no-cache git curl bash
+WORKDIR /workspaces/LinkUp
+USER root
